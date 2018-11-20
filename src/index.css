@@ -8,7 +8,57 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
+
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
+}
+
+.catCards {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  height: 100%;
+  margin: 10px;
+}
+
+.catCol {
+  display: flex;
+  flex-direction: column;
+  max-width: 33%;
+}
+
+.card {
+  opacity: .5;
+  color: black;
+  border: 1px solid gray;
+  margin: 15px;
+  padding: 10px;
+  position: relative;
+}
+
+.card:hover {
+  opacity: 1;
+}
+
+img {
+  max-width: 100%;
+}
+
+.heart {
+  font-size: 20px;
+  margin: -5px;
+}
+
+button {
+  padding: 5px;
+  color: blue;
+  font-size: 15px;
+  border-radius: 3px;
+  margin: 5px;
+}
+
+button:hover {
+  background-color: blue;
+  color: white;
 }
